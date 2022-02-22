@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "spectral_utilities",
+  "version": "${version}",
+
+  "name": "Spectral Utilities",
+  "description": "A Fresh new take on the old utilities you love",
+  "authors": [
+    "CodexAdrian (Developer)",
+    "Kekie6 (Art)"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.willowworks.spectral_utilities.SpectralUtilities"
+    ]
+  },
+  "mixins": [
+    "spectral_utilities.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
