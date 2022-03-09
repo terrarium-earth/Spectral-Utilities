@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "spectral_utilities:block/arctic_top",
+    "bottom": "spectral_utilities:block/bedrockium_hardstone",
+    "side": "spectral_utilities:block/arctic_bedrockium_hardstone_side"
+  }
+}

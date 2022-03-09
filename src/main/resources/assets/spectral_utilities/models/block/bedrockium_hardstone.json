@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "spectral_utilities:block/bedrockium_hardstone"
+  }
+}

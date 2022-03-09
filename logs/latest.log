@@ -1,0 +1,26 @@
+[19:57:04] [main/INFO]: Starting provider: SNBT -> NBT
+[19:57:04] [main/INFO]: SNBT -> NBT finished after 0 ms
+[19:57:04] [main/INFO]: Starting provider: Block State Definitions
+[19:57:05] [main/INFO]: Block State Definitions finished after 1367 ms
+[19:57:05] [main/INFO]: Starting provider: Fluid Tags
+[19:57:05] [main/INFO]: Fluid Tags finished after 2 ms
+[19:57:05] [main/INFO]: Starting provider: Block Tags
+[19:57:05] [main/INFO]: Block Tags finished after 35 ms
+[19:57:05] [main/INFO]: Starting provider: Item Tags
+[19:57:05] [main/INFO]: Item Tags finished after 34 ms
+[19:57:05] [main/INFO]: Starting provider: Entity Type Tags
+[19:57:05] [main/INFO]: Entity Type Tags finished after 1 ms
+[19:57:05] [main/INFO]: Starting provider: Recipes
+[19:57:06] [main/INFO]: Recipes finished after 772 ms
+[19:57:06] [main/INFO]: Starting provider: Advancements
+[19:57:06] [main/INFO]: [STDERR]: java.lang.IllegalAccessError: class net.minecraft.world.biome.source.MultiNoiseBiomeSource$Preset tried to access protected method 'void net.minecraft.world.biome.source.util.VanillaBiomeParameters.writeVanillaBiomeParameters(java.util.function.Consumer)' (net.minecraft.world.biome.source.MultiNoiseBiomeSource$Preset and net.minecraft.world.biome.source.util.VanillaBiomeParameters are in unnamed module of loader 'app')
+[19:57:06] [main/INFO]: [STDERR]: 	at net.minecraft.world.biome.source.MultiNoiseBiomeSource$Preset.method_38175(MultiNoiseBiomeSource.java:170)
+[19:57:06] [main/INFO]: [STDERR]: 	at net.minecraft.world.biome.source.MultiNoiseBiomeSource$Preset.getBiomeSource(MultiNoiseBiomeSource.java:189)
+[19:57:06] [main/INFO]: [STDERR]: 	at net.minecraft.world.biome.source.MultiNoiseBiomeSource$Preset.getBiomeSource(MultiNoiseBiomeSource.java:194)
+[19:57:06] [main/INFO]: [STDERR]: 	at net.minecraft.world.biome.source.MultiNoiseBiomeSource$Preset.getBiomeSource(MultiNoiseBiomeSource.java:198)
+[19:57:06] [main/INFO]: [STDERR]: 	at net.minecraft.data.server.AdventureTabAdvancementGenerator.getOverworldBiomes(AdventureTabAdvancementGenerator.java:108)
+[19:57:06] [main/INFO]: [STDERR]: 	at net.minecraft.data.server.AdventureTabAdvancementGenerator.accept(AdventureTabAdvancementGenerator.java:79)
+[19:57:06] [main/INFO]: [STDERR]: 	at net.minecraft.data.server.AdventureTabAdvancementGenerator.accept(AdventureTabAdvancementGenerator.java:139)
+[19:57:06] [main/INFO]: [STDERR]: 	at net.minecraft.data.server.AdvancementsProvider.run(AdvancementsProvider.java:52)
+[19:57:06] [main/INFO]: [STDERR]: 	at net.minecraft.data.DataGenerator.run(DataGenerator.java:45)
+[19:57:06] [main/INFO]: [STDERR]: 	at net.minecraft.data.Main.main(Main.java:56)

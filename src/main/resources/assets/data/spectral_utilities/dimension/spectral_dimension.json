@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:overworld_caves",
-  "generator": {
-    "type": "minecraft:noise",
-    "settings": {
-
-    }
-  }
-}

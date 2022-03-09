@@ -1,0 +1,13 @@
+{
+  "type": "spectral_utilities:spectral_dimension",
+  "generator": {
+    "biome_source": {
+      "large_biomes": false,
+      "type": "minecraft:fixed",
+      "biome": "spectral_utilities:frozen_wasteland"
+    },
+    "seed": 0,
+    "settings": "spectral_utilities:frozen_testland",
+    "type": "minecraft:noise"
+  }
+}
